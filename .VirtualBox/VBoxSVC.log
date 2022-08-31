@@ -1,0 +1,67 @@
+00:00:00.002923 main     VirtualBox COM Server 6.1.36 r152435 win.amd64 (Jul 19 2022 21:51:27) release log
+00:00:00.002925 main     Log opened 2022-08-17T23:05:47.676603800Z
+00:00:00.002926 main     Build Type: release
+00:00:00.002931 main     OS Product: Windows 11
+00:00:00.002932 main     OS Release: 10.0.22000
+00:00:00.002932 main     OS Service Pack: 
+00:00:00.023807 main     DMI Product Name: Nitro AN515-57
+00:00:00.035263 main     DMI Product Version: V1.17
+00:00:00.035270 main     Firmware type: UEFI
+00:00:00.035574 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.035589 main     Host RAM: 7971MB (7.7GB) total, 1192MB available
+00:00:00.035593 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.035593 main     Process ID: 16276
+00:00:00.035594 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.113345          VirtualBox: object creation starts
+00:00:00.113502          Home directory: 'C:\Users\ACER\.VirtualBox'
+00:00:00.115264          Installed Drivers:
+00:00:00.133518            C:\WINDOWS\system32\DRIVERS\VBoxSup.sys (Version: 6.1.36.2435)
+00:00:00.135595            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.36.2435)
+00:00:00.136035            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.1.36.2435)
+00:00:00.139073            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.36.2435)
+00:00:00.139701          Loading settings file "C:\Users\ACER\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.142130          usbLibGetDevices: Starting USB device enumeration
+00:00:00.169388          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&fb42c6b&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 9
+00:00:00.169445          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&fb42c6b&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:00:00.170346          usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:00.170391          USB: Unknown USB device detected (idVendor: 0x0408, idProduct: 0xa061)
+00:00:00.170429          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0026)
+00:00:00.294003          HostDnsMonitor: initializing
+00:00:00.302099          HostDnsMonitor: updating information
+00:00:00.302123          HostDnsMonitor: old information
+00:00:00.302124            no server entries
+00:00:00.302125            no domain set
+00:00:00.302125            no search string entries
+00:00:00.302126          HostDnsMonitor: new information
+00:00:00.302126            server 1: 1.1.1.1
+00:00:00.302126            server 2: 1.0.0.1
+00:00:00.302127            server 3: 192.168.1.1
+00:00:00.302127            no domain set
+00:00:00.302127            no search string entries
+00:00:00.304713          VD: VDInit finished with VINF_SUCCESS
+00:00:00.309560          Loading settings file "C:\Users\ACER\VirtualBox VMs\Ubuntu\Ubuntu.vbox" with version "1.16-windows"
+00:00:00.310541          VirtualBox: object created
+00:00:01.872195          Saving settings file "C:\Users\ACER\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.879366          Saving settings file "C:\Users\ACER\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:08.020508          Launched VM: 39678592 pid: 3980 (0xf8c) frontend: GUI/Qt name: Ubuntu
+00:00:12.729529          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:12.900056          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:44.345105          Saving settings file "C:\Users\ACER\VirtualBox VMs\Ubuntu\Ubuntu.vbox" with version "1.16-windows"
+00:00:44.867595          Saving settings file "C:\Users\ACER\VirtualBox VMs\Ubuntu\Ubuntu.vbox" with version "1.16-windows"
+00:01:24.066797 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:01:24.087583 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&fb42c6b&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 9
+00:01:24.087714 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&fb42c6b&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:01:24.087949 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:07:41.210251 dns-monitor HostDnsMonitor: updating information
+00:07:41.210304 dns-monitor HostDnsMonitor: unchanged
+00:07:51.230016 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:07:51.271134 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&fb42c6b&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:07:51.271442 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:34:58.119233          Saving settings file "C:\Users\ACER\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:34:58.129646          Saving settings file "C:\Users\ACER\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:34:58.752647 main     VirtualBox: object deletion starts
+00:34:58.753292 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\ACER\VirtualBox VMs\Ubuntu\Ubuntu.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:34:58.755773 main     HostDnsMonitor: shutting down ...
+00:34:58.755909 main     HostDnsMonitor: shut down
+00:34:58.759577 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:34:58.760227 main     VirtualBox: object deleted
